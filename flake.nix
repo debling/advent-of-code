@@ -27,7 +27,7 @@
       devShell = forEachSystem (pkgs:
         with pkgs;
         mkShell {
-          packages = [ guile guile-gcrypt ];
+          packages = [ aoc-cli guile guile-gcrypt ];
         }
       );
 
